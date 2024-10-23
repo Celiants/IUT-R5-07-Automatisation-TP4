@@ -37,8 +37,8 @@ jobs:
 
     - name : JY commit et push 
       run: |
-        git config --global user.name <Celiants>
-        git config --global user.email <antunes.celia2004@gmail.com>
+        git config --global user.name "Celiants"
+        git config --global user.email "antunes.celia2004@gmail.com"
         git add -A
         git status
         git commit -m "exécution de maven"
