@@ -1,0 +1,29 @@
+{
+  "graphName" : "calc",
+  "artifacts" : [ {
+    "id" : "TP4:calc:jar",
+    "numericId" : 1,
+    "groupId" : "TP4",
+    "artifactId" : "calc",
+    "version" : "1.0-SNAPSHOT",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "junit:junit:jar",
+    "numericId" : 2,
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "3.8.1",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  } ],
+  "dependencies" : [ {
+    "from" : "TP4:calc:jar",
+    "to" : "junit:junit:jar",
+    "numericFrom" : 0,
+    "numericTo" : 1,
+    "resolution" : "INCLUDED"
+  } ]
+}
